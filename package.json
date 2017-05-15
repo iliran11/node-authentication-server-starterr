@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
+    "client": "babel-node start-client.js",
     "mongo": "\"C:\\Program Files\\MongoDB\\Server\\3.4\bin\\mongod.exe\""
   },
   "keywords": [],
@@ -14,6 +15,8 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.1",
+    "concurrently": "^3.4.0",
+    "cors": "^2.8.3",
     "express": "^4.15.2",
     "jwt-simple": "^0.5.1",
     "mongoose": "^4.9.8",
